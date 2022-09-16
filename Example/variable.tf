@@ -1,3 +1,8 @@
+variable "loop_name" {
+  type        = map(any)
+  description = "Enter value for Loop"
+}
+
 # variable "ami1" {
 #   type        = string
 #   description = "Enter the ami value"
@@ -12,8 +17,3 @@
 #   type        = map(any)
 #   description = "This is for map"
 # }
-
-variable "loop_name" {
-  type        = map(any)
-  description = "Enter value for Loop"
-}
